@@ -10,5 +10,5 @@
 [hat spinning for one minute](https://www.bilibili.com/video/BV1Td4y1a7sX?vd_source=6fb27da0a12915fcca2eac0f68bc3cb9)
 ## Short technical explanation.
 1. I add a `mousePressed()` and `redrawPatterns()` function. Once it find a pattern is clicked by mouse, the pattern will disappear.
-2.I add 4 buttons. When the reset button is clicked, the `resetSketch `function will be called to reload all patterns.When the clear button is clicked, it calls the `clearPatterns` function to hide all patterns.When the begin animation button or stop animaton button is clicked, it will call the `beginAnimation` function and `stopAnimation` funtion to change the boolean to decide whether the patterns to rotate or not.
+2.I add 4 buttons. When the reset button is clicked, the `resetSketch() `function will be called to reload all patterns.When the clear button is clicked, it calls the `clearPatterns()` function to hide all patterns.When the begin animation button or stop animaton button is clicked, it will call the `beginAnimation()` function and `stopAnimation()` funtion to change the boolean to decide whether the patterns to rotate or not.
 3.I thought it was too boring to only have black background after the pattern disappeared, so I Used `preload()` to import a picture of dmc meme as the background.
